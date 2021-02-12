@@ -1,0 +1,2 @@
+INDEX VERSION 1.125+F:\ООП\Новая папка\.metadata\.plugins\org.eclipse.jdt.core
+87111012.index

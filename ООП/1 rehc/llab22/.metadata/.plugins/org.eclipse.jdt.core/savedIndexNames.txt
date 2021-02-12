@@ -1,0 +1,1 @@
+INDEX VERSION 1.125+G:\нно\llab22\.metadata\.plugins\org.eclipse.jdt.core

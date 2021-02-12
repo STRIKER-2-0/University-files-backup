@@ -1,0 +1,214 @@
+public class Main {
+	public static void main(String ars[]){
+		
+	}
+}
+
+
+
+public class Vehicle implements IVehicle{
+	protected boolean position=false;	//местонахождение машины	
+	protected double petrol_amount, tank_volume;	//параметры машины
+	
+	Vehicle(double petrol_amount, double tank_volume){
+		if((petrol_amount<=tank_volume)&&(petrol_amount>0)&&(tank_volume>0)) {
+			this.petrol_amount=petrol_amount;
+			this.tank_volume=tank_volume;
+		}
+		else { 
+			System.out.println("Некорректные параметры трансп. средства! Будет установлен стандарт.");
+			this.petrol_amount=100;
+			this.tank_volume=100;
+		}
+	}
+	public double getTankVolume() {
+		return tank_volume;
+	}
+	public double getPetrolAmount() {
+		return petrol_amount;
+	}
+	public void arrive() {
+		if(position==false) {
+			Base.people_on_base++;
+			Base.vehicles_on_base++;
+			position=true;
+		}
+		else System.out.println("Трансп. средство уже на базе!");
+	}
+	public boolean leave() {
+		if(position==true) {			
+			if((Base.people_on_base>=1)&&(Base.petrol_on_base>=(tank_volume-petrol_amount))&&(Base.vehicles_on_base>=1)) {
+				Base.people_on_base--;
+				Base.vehicles_on_base--;
+				Base.petrol_on_base-=(tank_volume-petrol_amount);
+				petrol_amount=tank_volume;
+				position=false;
+				return true;
+			}
+			return false;
+		}
+		else {
+			System.out.println("Трансп. средство еще не на базе!");
+			return false;
+		}
+	}
+}
+public class Bus extends Vehicle implements IBus{
+	private int people,max_people;
+	
+	Bus(int people, int max_people,double petrol_amount, double tank_volume){
+		super(petrol_amount, tank_volume);
+		if((people<=max_people)&&(people>=0)&&(max_people>=0)) {			
+			this.people=people;
+			this.max_people=max_people;
+		}
+		else { 
+			System.out.println("Некорректные параметры трансп. средства! Будет установлен стандарт.");
+			this.people=0;
+			this.max_people=100;
+		}
+	}
+	public int getPeopleCount() {
+		return people;
+	}
+	public int getMaxPeople() {
+		return max_people;
+	}	
+	@Override
+	public void arrive() {
+		super.arrive();
+		Base.people_on_base+=people;			
+		people=0;
+		position=true;
+		
+	}
+	@Override
+	public boolean leave() {
+		if(position==true) {
+			if(super.leave()) {
+				if(Base.people_on_base>=max_people) {
+					Base.people_on_base-=max_people;
+					people=max_people;					
+				}
+				else {
+					people=Base.people_on_base;
+					Base.people_on_base=0;					
+				}
+				position=false;
+				return true;
+			}
+			else return false;
+		}
+		else {
+			System.out.println("Трансп. средство еще не на базе!");
+			return false;
+		}
+	}	
+}
+public class Truck extends Vehicle implements ITruck{
+	private double load, max_load;
+
+	Truck(double load, double max_load, double petrol_amount, double tank_volume){
+		super(petrol_amount, tank_volume);
+		if((load<=max_load)&&(load>=0)&&(max_load>=0)) {			
+			this.load=load;
+			this.max_load=max_load;
+		}
+		else { 
+			System.out.println("Некорректные параметры трансп. средства! Будет установлен стандарт.");			
+			this.load=0;
+			this.max_load=100;
+		}
+	}
+	public double getCurrentLoad() {
+		return load;
+	}
+	public double getMaxLoad() {
+		return max_load;
+	}
+	@Override
+	public void arrive() {
+		super.arrive();			
+		Base.goods_on_base+=load;
+		load=0;
+		position=true;
+		
+	}
+	@Override
+	public boolean leave() {
+		if(position==true) {
+			if(super.leave()) {
+				if(Base.goods_on_base>=max_load) {
+					Base.goods_on_base-=max_load;
+					load=max_load;					
+				}
+				else {
+					load=Base.goods_on_base;
+					Base.goods_on_base=0;					
+				}
+				position=false;
+				return true;
+			}
+			else return false;
+		}
+		else {
+			//System.out.println("Трансп. средство еще не на базе!");
+			return true;
+		}
+	}	
+}
+public class Expeditor implements IExpeditor{
+	private Truck truck;
+	private Bus bus;
+	
+	Expeditor(double petrol_amount, double tank_volume, int people, int max_people, double load, double max_load){
+		bus=new Bus(people, max_people, petrol_amount/2, tank_volume/2);
+		truck=new Truck(load, max_load, petrol_amount-petrol_amount/2, tank_volume-tank_volume/2);
+	}
+	public double getTankVolume() {
+		return bus.getTankVolume()+truck.getTankVolume();
+	}
+	public double getPetrolAmount() {
+		return bus.getPetrolAmount()+truck.getPetrolAmount();
+	}
+	public int getPeopleCount() {
+		return bus.getPeopleCount();
+	}
+	public int getMaxPeople() {
+		return bus.getMaxPeople();
+	}
+	public double getCurrentLoad() {
+		return truck.getCurrentLoad();
+	}
+	public double getMaxLoad() {
+		return truck.getMaxLoad();
+	}
+	public void arrive() {
+		bus.arrive();
+		truck.arrive();
+		if(bus.position&&truck.position) {
+			Base.people_on_base--;
+			Base.vehicles_on_base--;
+		}
+	}
+	public boolean leave() {
+		if(Base.petrol_on_base>=(bus.getPetrolAmount()-bus.getPeopleCount())*2) {
+			if(bus.leave()) {
+				Base.people_on_base++;
+				Base.vehicles_on_base++;
+			}
+			truck.leave();
+			if(!bus.position&&!truck.position) {
+				return true;
+			}
+			else return false;
+		}
+		return false;
+	}
+	public void info() {
+		System.out.println("\nТопливо: "+(bus.getPetrolAmount()+truck.getPetrolAmount())+"/"+(bus.getTankVolume()+truck.getTankVolume()));
+		System.out.println("Пассажиры: "+bus.getPeopleCount()+"/"+bus.getMaxPeople());
+		System.out.println("Груз: "+truck.getCurrentLoad()+"/"+truck.getMaxLoad());
+	}
+}
+
