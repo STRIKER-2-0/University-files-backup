@@ -1,0 +1,88 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2560,         78]
+NotebookOptionsPosition[      1882,         58]
+NotebookOutlinePosition[      2227,         73]
+CellTagsIndexPosition[      2184,         70]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Remove", "[", 
+  RowBox[{"a", ",", "b", ",", "c"}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.7991529389138813`*^9, 3.799152954502139*^9}, 
+   3.7994187072053456`*^9},
+ CellLabel->"In[11]:=",ExpressionUUID->"eee5ede2-c9c1-4fd9-abbe-d30d1d46263e"],
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     SuperscriptBox["a", "2"], "-", 
+     SuperscriptBox["b", "2"], "-", 
+     SuperscriptBox["c", "2"], "+", 
+     RowBox[{"2", " ", "b", " ", "c"}]}], ")"}], "/", 
+   FractionBox[
+    RowBox[{"a", "+", "b", "-", "c"}], 
+    RowBox[{"a", "+", "b", "+", "c"}]]}], "]"}]], "Input",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{{3.799152962379306*^9, 3.7991530476621604`*^9}, 
+   3.7994187072053456`*^9},
+ CellLabel->"In[12]:=",ExpressionUUID->"95d6455a-9204-4d71-8e2d-c29f5dd6aac7"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"a", "-", "b", "+", "c"}], ")"}], " ", 
+  RowBox[{"(", 
+   RowBox[{"a", "+", "b", "+", "c"}], ")"}]}]], "Output",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.},
+ CellChangeTimes->{3.7991530548637304`*^9, 3.7994187072053456`*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"87372ad4-cc74-4a33-b6d9-b804ef20aa6f"]
+}, Open  ]]
+},
+WindowSize->{759, 601},
+WindowMargins->{{Automatic, 284}, {-335, Automatic}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 322, 6, 28, "Input",ExpressionUUID->"eee5ede2-c9c1-4fd9-abbe-d30d1d46263e",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[905, 30, 592, 15, 46, "Input",ExpressionUUID->"95d6455a-9204-4d71-8e2d-c29f5dd6aac7",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}],
+Cell[1500, 47, 366, 8, 32, "Output",ExpressionUUID->"87372ad4-cc74-4a33-b6d9-b804ef20aa6f",
+ CellGroupingRules->{"GroupTogetherGrouping", 10000.}]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

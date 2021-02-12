@@ -1,0 +1,67 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1610,         57]
+NotebookOptionsPosition[      1188,         41]
+NotebookOutlinePosition[      1533,         56]
+CellTagsIndexPosition[      1490,         53]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"152", "+", 
+       FractionBox["3", "4"]}], ")"}], "-", 
+     RowBox[{"(", 
+      RowBox[{"148", "+", 
+       FractionBox["3", "8"]}], ")"}]}], ")"}], " ", "0.3"}], "0.2"]], "Input",
+ CellChangeTimes->{{3.7991524205175376`*^9, 3.7991524844851265`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"6162d530-1948-4a80-9b83-6d48a3929c2d"],
+
+Cell[BoxData["6.5625`"], "Output",
+ CellChangeTimes->{3.7991524877913647`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"17f76572-8956-49ee-8ddb-a31b8d5fa971"]
+}, Open  ]]
+},
+WindowSize->{759, 601},
+WindowMargins->{{Automatic, 244}, {-386, Automatic}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 433, 12, 54, "Input",ExpressionUUID->"6162d530-1948-4a80-9b83-6d48a3929c2d"],
+Cell[1016, 36, 156, 2, 65, "Output",ExpressionUUID->"17f76572-8956-49ee-8ddb-a31b8d5fa971"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
