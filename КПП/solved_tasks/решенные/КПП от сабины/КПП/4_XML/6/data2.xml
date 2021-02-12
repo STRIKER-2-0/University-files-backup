@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<MusicFest>
+ <!--<datasheet>-->
+ <Group name="BadaBoom" count="3">
+  <ispolnitel name="Vasya">1.1</ispolnitel>
+  <ispolnitel name="vasya">1.01</ispolnitel>
+  <ispolnitel name="Petrow">1.01</ispolnitel>
+ </Group>
+ <Group name="Dinamo" count="2">
+  <ispolnitel name="Petya">1.1</ispolnitel>
+  <ispolnitel name="vasya">1.01</ispolnitel>
+ </Group>
+</MusicFest>

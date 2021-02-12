@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="out/artifacts/Client_jar/CLIENT.jar"/>
+	<classpathentry kind="lib" path="out/artifacts/Client_jar/Network_1.jar"/>
+	<classpathentry kind="lib" path="out/artifacts/Server_jar/Network_1.jar"/>
+	<classpathentry kind="lib" path="out/artifacts/Server_jar/SERVER.jar"/>
+	<classpathentry kind="output" path="out/production/Network_1"/>
+</classpath>
