@@ -1,0 +1,64 @@
+#include "stm32f4xx.h"
+#include "stm32f4xx_gpio.h"
+#include "stm32f4xx_rcc.h"
+#include "stm32f4xx_tim.h"
+#include "misc.h"
+#include "init.h"
+
+enum State{
+	LED4,
+	LED3,
+	LED5,
+	LED6
+};
+static uint8_t counter = 0;
+static enum State state = LED4;
+
+void logic(int* brightness){
+	switch(state){
+		case LED4:
+			TIM4->CCR1 = *brightness;
+			break;
+		case LED3:
+			TIM4->CCR2 = *brightness;
+			break;
+		case LED5:
+			TIM4->CCR3 = *brightness;
+			break;
+		case LED6:
+			TIM4->CCR4 = *brightness;
+			break;
+		default:
+			state = LED4;
+			*brightness = 0;
+			break;
+	}
+}
+
+int main(void){
+	init();
+
+	uint32_t brightness_arr[10];
+	for(int i = 0; i < 10; i++)
+		brightness_arr[i] = (uint32_t) (65535 * (0.1 * i));
+
+	//int brightness = 0;
+	while(1){
+		brightness++;
+		logic(brightness_arr );
+	}
+}
+
+void TIM2_IRQHandler(void) {
+    if (TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET) {
+        TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
+        counter++;
+        if(counter == 10){
+        	counter = 0;
+        	state++;
+        }
+    }
+}
+
+
+

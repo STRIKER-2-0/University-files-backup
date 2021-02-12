@@ -1,0 +1,4 @@
+void init();
+void TimerInit();
+void gpio_config();
+void INTTIM_Config();

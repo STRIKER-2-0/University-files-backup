@@ -1,0 +1,6 @@
+void init();
+void gpio_init();
+void TimerInit();
+void INTTIM_Config();
+void adc_leds_init();
+void adc_init();

@@ -1,0 +1,5 @@
+main.c:18:6:logic	8	static
+main.c:60:5:main	8	static
+main.c:69:6:TIM2_IRQHandler	8	static
+main.c:76:6:GPIO_Config	16	static
+main.c:88:6:INTTIM_Config	24	static
