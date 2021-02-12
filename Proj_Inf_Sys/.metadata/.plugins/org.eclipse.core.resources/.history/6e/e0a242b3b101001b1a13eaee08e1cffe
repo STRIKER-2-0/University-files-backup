@@ -1,0 +1,10 @@
+package com.example.demo;
+
+public class HelloUAService implements IHello {
+
+	@Override
+	public void sayHello() {
+		System.out.println("Say Hello UA");
+	}
+
+}
