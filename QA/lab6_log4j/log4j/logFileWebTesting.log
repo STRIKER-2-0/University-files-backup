@@ -1,0 +1,12 @@
+2020-04-17 19:04:21 [INFO ] Logging:26 - Start of Testing
+2020-04-17 19:04:21 [INFO ] Logging:99 - Test 5
+2020-04-17 19:04:37 [WARN ] Logging:110 - passed
+2020-04-17 19:04:37 [INFO ] Logging:61 - Test 3
+2020-04-17 19:04:42 [WARN ] Logging:70 - passed
+2020-04-17 19:04:42 [INFO ] Logging:30 - Test 1
+2020-04-17 19:04:46 [WARN ] Logging:43 - passed
+2020-04-17 19:04:46 [INFO ] Logging:47 - Test 2
+2020-04-17 19:04:52 [WARN ] Logging:57 - passed
+2020-04-17 19:04:52 [INFO ] Logging:74 - Test 4
+2020-04-17 19:04:56 [WARN ] Logging:95 - passed
+2020-04-17 19:04:56 [INFO ] Logging:114 - End of Testing

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3422ea88-0aae-4f22-8710-cef99dc20229" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ctHXwkardrHYEZw7BloG2jKVle" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WebTesting.secondTest">
+    <configuration name="WebTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course_work" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebTesting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTesting.fifthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course_work" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebTesting" />
+      <option name="METHOD_NAME" value="fifthTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTesting.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course_work" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebTesting" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTesting.fourthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course_work" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebTesting" />
+      <option name="METHOD_NAME" value="fourthTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTesting.secondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="course_work" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebTesting" />
+      <option name="METHOD_NAME" value="secondTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WebTesting.secondTest" />
+        <item itemvalue="JUnit.WebTesting.firstTest" />
+        <item itemvalue="JUnit.WebTesting" />
+        <item itemvalue="JUnit.WebTesting.fifthTest" />
+        <item itemvalue="JUnit.WebTesting.fourthTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3422ea88-0aae-4f22-8710-cef99dc20229" name="Default Changelist" comment="" />
+      <created>1591341012473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591341012473</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1367" height="208" key="GridCell.Tab.0.bottom" timestamp="1591354149495">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591354149495" />
+    <state width="1367" height="208" key="GridCell.Tab.0.center" timestamp="1591354149494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="208" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591354149494" />
+    <state width="1367" height="208" key="GridCell.Tab.0.left" timestamp="1591354149494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="208" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591354149494" />
+    <state width="1367" height="208" key="GridCell.Tab.0.right" timestamp="1591354149495">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="208" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591354149495" />
+    <state x="320" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1592815435021">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="320" y="185" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592815435021" />
+    <state x="65" y="72" key="new project wizard" timestamp="1592815542327">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="72" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1592815542327" />
+  </component>
+</project>

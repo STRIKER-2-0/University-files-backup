@@ -1,0 +1,41 @@
+public class Solution {
+    public static void main(String[] args) {
+        double x;
+        System.out.println("x\t\t\tS(x)\t\tF(x)\t\tS(x)-F(x)");
+        for(x = 0; x <= 0.8; x += 0.1){
+            System.out.format("%.6f\t",x);
+            System.out.printf("%.6f\t",S(x));
+            System.out.printf("%.6f\t",F(x));
+            System.out.printf("%.6f\n",S(x)-F(x));
+        }
+    }
+    public static double S(double x){ //расчет суммы рядa S(x)
+
+        return F(x) - (1 - Math.exp(1 + x)) / (Math.pow((1 + x), 2));// отнимаем от функции F(x) заданное выражение
+    }
+
+
+
+    public static double F(double x){ // расчет функции F(x)
+        int n =1;
+        double E = Math.pow(10, -4); // задаем приближение
+        double result=0; //переменная для конечного результата
+        double member=1; //переменная для каждого члена ряда
+        for(int k=0; member > E ; k++) {
+                member = (Math.pow(-1, k + 1) * k * Math.pow(x, k - 1) * some_func(k));
+                result+=member; // добавляем к результату каждой вычесленный член
+        }
+
+        return result;
+    }
+    public static double some_func(double k){
+        double member=1;
+        double result=0;
+        for(int n = 0; n < k; n++) {
+                member = 1/n+1;
+//                System.out.println(member);
+                result+=member; // добавляем к результату каждой вычесленный член
+        }
+        return result;
+    }
+}
