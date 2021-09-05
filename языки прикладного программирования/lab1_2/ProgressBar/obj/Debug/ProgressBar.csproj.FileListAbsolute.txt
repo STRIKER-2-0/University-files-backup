@@ -1,0 +1,9 @@
+H:\языки прикладного программирования\lab1_2\ProgressBar\bin\Debug\ProgressBar.exe.config
+H:\языки прикладного программирования\lab1_2\ProgressBar\bin\Debug\ProgressBar.exe
+H:\языки прикладного программирования\lab1_2\ProgressBar\bin\Debug\ProgressBar.pdb
+H:\языки прикладного программирования\lab1_2\ProgressBar\obj\Debug\ProgressBar.Form1.resources
+H:\языки прикладного программирования\lab1_2\ProgressBar\obj\Debug\ProgressBar.Properties.Resources.resources
+H:\языки прикладного программирования\lab1_2\ProgressBar\obj\Debug\ProgressBar.csproj.GenerateResource.cache
+H:\языки прикладного программирования\lab1_2\ProgressBar\obj\Debug\ProgressBar.csproj.CoreCompileInputs.cache
+H:\языки прикладного программирования\lab1_2\ProgressBar\obj\Debug\ProgressBar.exe
+H:\языки прикладного программирования\lab1_2\ProgressBar\obj\Debug\ProgressBar.pdb

@@ -1,0 +1,9 @@
+H:\языки прикладного программирования\lab1_2\SystemTray\bin\Debug\SystemTray.exe.config
+H:\языки прикладного программирования\lab1_2\SystemTray\bin\Debug\SystemTray.exe
+H:\языки прикладного программирования\lab1_2\SystemTray\bin\Debug\SystemTray.pdb
+H:\языки прикладного программирования\lab1_2\SystemTray\obj\Debug\SystemTray.Form1.resources
+H:\языки прикладного программирования\lab1_2\SystemTray\obj\Debug\SystemTray.Properties.Resources.resources
+H:\языки прикладного программирования\lab1_2\SystemTray\obj\Debug\SystemTray.csproj.GenerateResource.cache
+H:\языки прикладного программирования\lab1_2\SystemTray\obj\Debug\SystemTray.csproj.CoreCompileInputs.cache
+H:\языки прикладного программирования\lab1_2\SystemTray\obj\Debug\SystemTray.exe
+H:\языки прикладного программирования\lab1_2\SystemTray\obj\Debug\SystemTray.pdb

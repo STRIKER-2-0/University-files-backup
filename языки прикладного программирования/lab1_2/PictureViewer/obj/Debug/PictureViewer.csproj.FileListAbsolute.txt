@@ -1,0 +1,10 @@
+H:\языки прикладного программирования\lab1_2\PictureViewer\bin\Debug\PictureViewer.exe.config
+H:\языки прикладного программирования\lab1_2\PictureViewer\bin\Debug\PictureViewer.exe
+H:\языки прикладного программирования\lab1_2\PictureViewer\bin\Debug\PictureViewer.pdb
+H:\языки прикладного программирования\lab1_2\PictureViewer\obj\Debug\PictureViewer.csprojAssemblyReference.cache
+H:\языки прикладного программирования\lab1_2\PictureViewer\obj\Debug\PictureViewer.Form1.resources
+H:\языки прикладного программирования\lab1_2\PictureViewer\obj\Debug\PictureViewer.Properties.Resources.resources
+H:\языки прикладного программирования\lab1_2\PictureViewer\obj\Debug\PictureViewer.csproj.GenerateResource.cache
+H:\языки прикладного программирования\lab1_2\PictureViewer\obj\Debug\PictureViewer.csproj.CoreCompileInputs.cache
+H:\языки прикладного программирования\lab1_2\PictureViewer\obj\Debug\PictureViewer.exe
+H:\языки прикладного программирования\lab1_2\PictureViewer\obj\Debug\PictureViewer.pdb

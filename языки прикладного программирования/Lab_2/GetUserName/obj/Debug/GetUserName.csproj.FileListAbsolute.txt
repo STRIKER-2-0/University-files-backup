@@ -1,0 +1,9 @@
+H:\языки прикладного программирования\Lab_2\GetUserName\bin\Debug\GetUserName.exe.config
+H:\языки прикладного программирования\Lab_2\GetUserName\bin\Debug\GetUserName.exe
+H:\языки прикладного программирования\Lab_2\GetUserName\bin\Debug\GetUserName.pdb
+H:\языки прикладного программирования\Lab_2\GetUserName\obj\Debug\GetUserName.Form1.resources
+H:\языки прикладного программирования\Lab_2\GetUserName\obj\Debug\GetUserName.Properties.Resources.resources
+H:\языки прикладного программирования\Lab_2\GetUserName\obj\Debug\GetUserName.csproj.GenerateResource.cache
+H:\языки прикладного программирования\Lab_2\GetUserName\obj\Debug\GetUserName.csproj.CoreCompileInputs.cache
+H:\языки прикладного программирования\Lab_2\GetUserName\obj\Debug\GetUserName.exe
+H:\языки прикладного программирования\Lab_2\GetUserName\obj\Debug\GetUserName.pdb

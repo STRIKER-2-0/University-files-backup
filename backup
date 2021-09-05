@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -r University-files-backup/*
+rmdir University-files-backup
+git clone https://github.com/STRIKER-2-0/University-files-backup.git
+cd University-files-backup/
+git config --local core.quotepath false

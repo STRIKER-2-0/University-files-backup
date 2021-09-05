@@ -1,0 +1,10 @@
+H:\языки прикладного программирования\Lab_2\ScreenShot\bin\Debug\ScreenShot.exe.config
+H:\языки прикладного программирования\Lab_2\ScreenShot\bin\Debug\ScreenShot.exe
+H:\языки прикладного программирования\Lab_2\ScreenShot\bin\Debug\ScreenShot.pdb
+H:\языки прикладного программирования\Lab_2\ScreenShot\obj\Debug\ScreenShot.Form1.resources
+H:\языки прикладного программирования\Lab_2\ScreenShot\obj\Debug\ScreenShot.Properties.Resources.resources
+H:\языки прикладного программирования\Lab_2\ScreenShot\obj\Debug\ScreenShot.csproj.GenerateResource.cache
+H:\языки прикладного программирования\Lab_2\ScreenShot\obj\Debug\ScreenShot.csproj.CoreCompileInputs.cache
+H:\языки прикладного программирования\Lab_2\ScreenShot\obj\Debug\ScreenShot.exe
+H:\языки прикладного программирования\Lab_2\ScreenShot\obj\Debug\ScreenShot.pdb
+H:\языки прикладного программирования\Lab_2\ScreenShot\obj\Debug\ScreenShot.csprojAssemblyReference.cache

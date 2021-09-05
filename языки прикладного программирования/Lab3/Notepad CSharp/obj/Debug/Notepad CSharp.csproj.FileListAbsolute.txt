@@ -1,0 +1,13 @@
+H:\языки прикладного программирования\Lab3\Notepad CSharp\bin\Debug\Notepad CSharp.exe.config
+H:\языки прикладного программирования\Lab3\Notepad CSharp\bin\Debug\Notepad CSharp.exe
+H:\языки прикладного программирования\Lab3\Notepad CSharp\bin\Debug\Notepad CSharp.pdb
+H:\языки прикладного программирования\Lab3\Notepad CSharp\obj\Debug\Notepad CSharp.csprojAssemblyReference.cache
+H:\языки прикладного программирования\Lab3\Notepad CSharp\obj\Debug\Notepad_CSharp.Form1.resources
+H:\языки прикладного программирования\Lab3\Notepad CSharp\obj\Debug\Notepad_CSharp.Form2.resources
+H:\языки прикладного программирования\Lab3\Notepad CSharp\obj\Debug\Notepad_CSharp.Properties.Resources.resources
+H:\языки прикладного программирования\Lab3\Notepad CSharp\obj\Debug\Notepad CSharp.csproj.GenerateResource.cache
+H:\языки прикладного программирования\Lab3\Notepad CSharp\obj\Debug\Notepad CSharp.csproj.CoreCompileInputs.cache
+H:\языки прикладного программирования\Lab3\Notepad CSharp\obj\Debug\Notepad CSharp.exe
+H:\языки прикладного программирования\Lab3\Notepad CSharp\obj\Debug\Notepad CSharp.pdb
+H:\языки прикладного программирования\Lab3\Notepad CSharp\obj\Debug\Notepad_CSharp.Find.resources
+H:\языки прикладного программирования\Lab3\Notepad CSharp\obj\Debug\Notepad_CSharp.About.resources

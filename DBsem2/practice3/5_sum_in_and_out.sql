@@ -1,0 +1,2 @@
+SELECT 5_sum_input.id_i, 5_sum_input.otd _in, 5_sum_input.cost AS in_cost, IFNULL(_out, 0) AS _out, IFNULL(5_sum_output.cost, 0) AS out_cost
+FROM 5_sum_input LEFT JOIN 5_sum_output ON 5_sum_input.id_i = 5_sum_output.id_i

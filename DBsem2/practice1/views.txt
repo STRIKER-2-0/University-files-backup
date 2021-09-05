@@ -1,0 +1,15 @@
+SELECT  klient.Name AS Name,  SUM(tovar.CenaEd * zakaz.Kolich) AS SUM
+FROM (zakaz INNER JOIN klient  ON (zakaz.CodeKlient = klient.CodeKlient))
+INNER JOIN tovar ON (zakaz.CodeTovar = tovar.CodeTovar)
+WHERE (klient.Name = 'Сельпо')
+
+SELECT tovar.Nazva AS Nazva,  SUM(zakaz.Kolich) AS 'SUM'
+FROM zakaz INNER JOIN tovar ON (zakaz.CodeTovar = tovar.CodeTovar)
+WHERE (MONTH(zakaz.DateZ) = 3)
+GROUP BY tovar.Nazva
+
+SELECT klient.Name
+FROM (zakaz INNER JOIN klient  ON (zakaz.CodeKlient = klient.CodeKlient))
+INNER JOIN tovar ON (zakaz.CodeTovar = tovar.CodeTovar)
+WHERE tovar.Nazva = 'Яблоки ДеКоста' AND zakaz.DateZ = '2020-01-05'
+GROUP BY klient.Name

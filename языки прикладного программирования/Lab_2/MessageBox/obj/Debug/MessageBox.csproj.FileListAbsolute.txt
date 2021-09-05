@@ -1,0 +1,10 @@
+H:\языки прикладного программирования\Lab_2\MessageBox\bin\Debug\MessageBox.exe.config
+H:\языки прикладного программирования\Lab_2\MessageBox\bin\Debug\MessageBox.exe
+H:\языки прикладного программирования\Lab_2\MessageBox\bin\Debug\MessageBox.pdb
+H:\языки прикладного программирования\Lab_2\MessageBox\obj\Debug\MessageBox.Form1.resources
+H:\языки прикладного программирования\Lab_2\MessageBox\obj\Debug\MessageBox.Properties.Resources.resources
+H:\языки прикладного программирования\Lab_2\MessageBox\obj\Debug\MessageBox.csproj.GenerateResource.cache
+H:\языки прикладного программирования\Lab_2\MessageBox\obj\Debug\MessageBox.csproj.CoreCompileInputs.cache
+H:\языки прикладного программирования\Lab_2\MessageBox\obj\Debug\MessageBox.exe
+H:\языки прикладного программирования\Lab_2\MessageBox\obj\Debug\MessageBox.pdb
+H:\языки прикладного программирования\Lab_2\MessageBox\obj\Debug\MessageBox.csprojAssemblyReference.cache

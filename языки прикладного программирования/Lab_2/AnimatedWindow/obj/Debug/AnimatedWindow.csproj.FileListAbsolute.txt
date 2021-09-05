@@ -1,0 +1,10 @@
+H:\языки прикладного программирования\Lab_2\AnimatedWindow\bin\Debug\AnimatedWindow.exe.config
+H:\языки прикладного программирования\Lab_2\AnimatedWindow\bin\Debug\AnimatedWindow.exe
+H:\языки прикладного программирования\Lab_2\AnimatedWindow\bin\Debug\AnimatedWindow.pdb
+H:\языки прикладного программирования\Lab_2\AnimatedWindow\obj\Debug\AnimatedWindow.csprojAssemblyReference.cache
+H:\языки прикладного программирования\Lab_2\AnimatedWindow\obj\Debug\AnimatedWindow.Form1.resources
+H:\языки прикладного программирования\Lab_2\AnimatedWindow\obj\Debug\AnimatedWindow.Properties.Resources.resources
+H:\языки прикладного программирования\Lab_2\AnimatedWindow\obj\Debug\AnimatedWindow.csproj.GenerateResource.cache
+H:\языки прикладного программирования\Lab_2\AnimatedWindow\obj\Debug\AnimatedWindow.csproj.CoreCompileInputs.cache
+H:\языки прикладного программирования\Lab_2\AnimatedWindow\obj\Debug\AnimatedWindow.exe
+H:\языки прикладного программирования\Lab_2\AnimatedWindow\obj\Debug\AnimatedWindow.pdb

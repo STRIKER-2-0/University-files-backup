@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrawserName", "BrawserName\BrawserName.csproj", "{5BD7B43D-E08E-40EC-A200-979BE2029389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BD7B43D-E08E-40EC-A200-979BE2029389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD7B43D-E08E-40EC-A200-979BE2029389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD7B43D-E08E-40EC-A200-979BE2029389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD7B43D-E08E-40EC-A200-979BE2029389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D02B3F06-6E34-4D69-8DEE-B42191B80778}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,87 @@
+html {
+	font-family: Verdana, Arial;
+	font-style: normal;
+	font-variant: small-caps;
+}
+body {
+	margin: 0px;
+}
+header {
+	background-color: #2AABE4;
+	height: 60px;
+	margin: 0px;
+	padding: 0px;
+}
+.title {	
+	text-align: center;
+	line-height: 60px;
+	color: white;	
+}
+.wrapper {
+	display: flex;	
+	height: 100%;
+}
+.left {
+	padding: 20px;
+	background-color: #33393D;
+	width: 270px;
+}
+.center {
+	width: 100%;
+}
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+h1 {
+	padding: auto auto auto 10px;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: large;
+}
+.indent {
+	margin: 20px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.button {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	margin: 30px 30px;
+	font-weight: bold;
+	font-size: large;
+	background-color: #2AABE4;
+	text-align: center;
+	line-height: 70px;
+}
+.submit {
+	width: 150px;
+	height: 40px;
+	background: #2AABE4;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border: 0px;
+	margin: auto 20px;
+}
+table {
+	border: 1px solid blue;
+	margin: 50px 50px;
+}
+tr, td, th {
+	border: 1px solid blue;
+}
+form {
+	margin: 20px;
+}
+select {
+	margin: auto auto auto 20px;
+}
+
